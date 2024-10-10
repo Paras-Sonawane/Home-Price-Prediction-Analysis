@@ -5,11 +5,15 @@ Price, Seller etc and using that to predict the price of a given house.
 However, before you go ahead and make a prediction, it is advised that you first pre-process the 
 data, since it may contain some irregularities and noise. In addition, try various tricks and techniques 
 in order to gain the best accuracy in your predictions.
+
+
 Column details(Meta description)
 Suburb: Suburb
 Address: Address
 Rooms: Number of rooms
 Price: Price in Australian dollars
+
+
 Method:
 S - property sold;
 SP - property sold prior;
@@ -22,6 +26,8 @@ W - withdrawn prior to auction;
 SA - sold after auction;
 SS - sold after auction price not disclosed.
 N/A - price or highest bid not available.
+
+
 Type:
 br - bedroom(s);
 h - house, cottage, villa, semi, terrace;
@@ -43,6 +49,8 @@ YearBuilt: Year the house was built
 CouncilArea: Governing council for the area
 Lattitude: Self explanatory
 Longtitude: Self explanatory
+
+
 Part-1: data Exploration and Pre-processing
 1) Load the given dataset
 2) Print all the column names
@@ -53,6 +61,8 @@ Part-1: data Exploration and Pre-processing
 7) Fill Null value of land size and bidding area columns with Mean
 8) Find the unique value in method column
 9) Create a dummy data for categorical data
+
+    
 Part-2: Working with Model
 1) Create the target data and feature data where target data is price
 2) Create a linear regression model for Target and feature data
